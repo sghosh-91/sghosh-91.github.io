@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.partypoker.poker",
+    "sha256_cert_fingerprints":
+    ["05:F7:AA:B1:14:EB:A3:45:64:9A:56:E1:47:31:8C:4B:59:5D:C2:BB:BC:EE:6A:D3:C8:EE:4C:13:66:4C:94:0A"]
+  }
+}]
