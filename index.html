@@ -10,12 +10,13 @@
 <p id="demo">Click me.</p>
 
 <a href="www.partypoker.com/?gen_dl=pokerpp://Lobby/Details?GameMode=SNGJP&GameId=334575778&MoneyType=RM" target="_blank">
-    <button>Open poke app</button>
+    <button>Open poker app with App link</button>
 </a>
 
-<button class="button" onClick="window.open('https://www.partypoker.com/?gen_dl=pokerpp://Lobby/Details?GameMode=SNGJP&GameId=334575778&MoneyType=RM');">
-     <span class="icon">Open app</span>
-</button>
+<a href="intent://www.partypoker.com?/action?gd_li=pokerpp://Lobby/Details?GameMode=SNGJP&GameId=326255424&MoneyType=RM#Intent;scheme=pokerpp;package=com.partypoker.poker;S.browser_fallback_url=https://media.itsfogo.com/media/mobile/poker/android/apk/PartyPoker.apk;end" target="_blank">
+    <button>Open poker app with Intent link</button>
+</a>
+
 
 <script>
 document.getElementById("demo").addEventListener("click", myFunction);
@@ -27,3 +28,5 @@ function myFunction() {
 
 </body>
 </html>
+
+
